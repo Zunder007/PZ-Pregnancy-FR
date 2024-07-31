@@ -1,0 +1,10 @@
+UI_FR = {
+	UI_trait_Pregnancy = "Grossesse",
+	UI_trait_Pregnancy_Desc = "Vous commencez le jeu enceinte. Au cours des 9 prochains mois, vous ressentirez une soif et une faim qui augmenteront progressivement, une vitesse de déplacement qui diminuera progressivement, une capacité de charge qui diminuera progressivement. À la fin, vous entrerez dans la phase d'accouchement qui restreindra tout type de mouvement et vous forcera à vous asseoir par terre. L'état mental, le tabagisme et l'alcool affectent les chances de réussite.<br>Assurez-vous de choisir un personnage féminin ou de décocher le paramètre sandbox responsable de la vérification du sexe."
+
+	UI_trait_PregnancySuccess = "Grossesse réussie",
+	UI_trait_PregnancySuccess_Desc = "Vous avez réussi à accoucher d'un bébé au milieu d'une apocalypse zombie. Si vous pouvez faire cela, rien ne peut vous terrifier. Vos niveaux de panique et de peur n'atteignent jamais des niveaux extrêmes. De plus, il vous est accordé +1 en Fitness durant les 2 à 4 semaines suivant la grossesse."
+
+	UI_trait_PregnancyFail = "Grossesse ratée",
+	UI_trait_PregnancyFail_Desc = "Vous avez eu un bébé, mais l'accouchement a été un désastre. Ce souvenir restera pour toujours gravé dans votre esprit. Votre mécontentement ne descend jamais en dessous de 25%."
+}
