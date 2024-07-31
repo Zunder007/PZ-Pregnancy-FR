@@ -1,0 +1,7 @@
+Moodles_FR = {
+	Moodles_PregnancyProgressMoodle_Good_lvl1 = "2e trimestre",
+	Moodles_PregnancyProgressMoodle_Good_lvl2 = "3e trimestre",
+	Moodles_PregnancyProgressMoodle_Good_lvl3 = "10 % ou moins (de la durée totale de la grossesse) du moment de l'accouchement",
+	Moodles_PregnancyProgressMoodle_Good_lvl4 = "Très proche de l'accouchement (2 % ou moins de la durée totale de la grossesse)",
+	Moodles_PregnancyProgressMoodle_Custom = "Cet humeur indique à quel point vous êtes proche de l'accouchement.<br>Vous aurez une vitesse de déplacement plus faible, une soif et une consommation de calories plus élevées, ainsi qu'un poids transportable plus faible à mesure que vous vous approcherez du terme.",
+}
