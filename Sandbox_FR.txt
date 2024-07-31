@@ -1,0 +1,31 @@
+Sandbox_FR = {
+	note_to_LANGUAGE_translators = "Assurez-vous que le fichier est enregistré dans l'encodage <ENCODING> approprié, afin que le jeu affiche les caractères spéciaux correctement"
+
+	Sandbox_Pregnancy = "Caractéristique Grossesse",
+
+	Sandbox_Pregnancy_PregnancyDuration = "Durée moyenne de la grossesse (en jours)",
+	Sandbox_Pregnancy_PregnancyDuration_tooltip = "Combien de temps dure la grossesse (en jours), l'accouchement commencera à la fin de la durée",
+	Sandbox_Pregnancy_PregnancyDurationRandomization = "Variation aléatoire de la durée de la grossesse (jours)",
+    Sandbox_Pregnancy_PregnancyDurationRandomization_tooltip = "La durée de la grossesse sera ajustée aléatoirement de 0 à X jours, elle peut être plus courte ou plus longue. Si cette valeur est supérieure à la durée normale de la grossesse, elle ne sera pas soumise à une variation aléatoire (on ne peut pas avoir une durée de grossesse de 270 et une variation aléatoire poussant à 300, par exemple)",
+
+    Sandbox_Pregnancy_LaborMinimumDuration = "Durée minimale de l'accouchement (en heures)",
+    Sandbox_Pregnancy_LaborMaximumDuration = "Durée maximale de l'accouchement (en heures)",
+    Sandbox_Pregnancy_LaborMaximumDuration_tooltip = "Si cette valeur est supérieure à la durée minimale de l'accouchement, elle ne sera pas modifiée aléatoirement (on ne peut pas avoir une durée minimale de l'accouchement de 12 et une durée maximale de 10, par exemple)",
+
+    Sandbox_Pregnancy_LaborSecondStageMinimumDuration = "Durée minimale de la 2ème étape de l'accouchement (en minutes)",
+	Sandbox_Pregnancy_LaborSecondStageMaximumDuration = "Durée maximale de la 2ème étape de l'accouchement (en minutes)",
+	Sandbox_Pregnancy_LaborSecondStageMaximumDuration_tooltip = "Cette étape est la phase active de l'accouchement. Attendez-vous à ce que le personnage pousse des cris durant cette période. Si cette valeur est supérieure à la durée minimale de la 2e étape de l'accouchement, elle ne sera pas soumise à une variation aléatoire (on ne peut pas définir la durée minimale de la 2e étape de l'accouchement sur 60 et la durée maximale sur 30, par exemple)",
+
+	Sandbox_Pregnancy_CanDieFromPregnancy = "La grossesse peut être fatale",
+	Sandbox_Pregnancy_CanDieFromPregnancy_tooltip = "Le personnage peut mourir après avoir terminé l'accouchement",
+	Sandbox_Pregnancy_BaseChanceToDie = "Chances de base de mourir",
+    Sandbox_Pregnancy_BaseChanceToDie_tooltip = "Chances de base de mourir durant l'accouchement. Cette chance est diminuée par  10 X (Premiers secours + Force/2 + Fitness/2). Ce risque est également affecté par votre bien-être mental pendant la grossesse (stress, malheur, panique, peur)",
+	Sandbox_Pregnancy_BabyDieChanceIncrease = "Ajustement du risque d'échec de la naissance",
+	Sandbox_Pregnancy_BabyDieChanceIncrease_tooltip = "Il s'agit du pourcentage par lequel les chances de survie du bébé sont ajustées par rapport à la survie du personnage. Par exemple, si les chances de mortalité de votre personnage après tous les modificateurs sont égales à 13 % et que ce modificateur est fixé à 30 %, le taux de mortalité du bébé sera de 43 %. Selon une brève recherche sur Internet, le taux de mortalité infantile est plus élevé que celui des mères.",
+	Sandbox_Pregnancy_BabyDieChanceIncreaseIfDrank = "Ajustement du risque d'échec de la naissance en raison de l'alcool",
+	Sandbox_Pregnancy_BabyDieChanceIncreaseIfDrank_tooltip = "Il s'agit du pourcentage par lequel les chances de survie du bébé sont ajustées par rapport à la consommation d'alcool durant la grossesse. Par exemple, si votre risque de mortalité du bébé après tous les modificateurs est égal à 43 %, et que ce modificateur est fixé à 15 %, et que vous avez bu de l'alcool, le taux de mortalité du bébé sera alors de 58 %.",
+	Sandbox_Pregnancy_BabyDieChanceIncreaseIfSmoked = "Ajustement du risque d'échec de la naissance en raison du tabagisme",
+	Sandbox_Pregnancy_BabyDieChanceIncreaseIfSmoked_tooltip = "Il s'agit du pourcentage par lequel les chances de survie du bébé sont ajustées par rapport à la consommation d'alcool durant la grossesse. Par exemple, si votre risque de mortalité du bébé après tous les modificateurs est égal à 43 %, et que ce modificateur est fixé à 15 %, et que vous fumez, le taux de mortalité du bébé sera alors de 58 %.",
+	Sandbox_Pregnancy_RestrictPregnancyToFemales = "Limiter la grossesse aux femmes",
+	Sandbox_Pregnancy_RestrictPregnancyToFemales_tooltip = "Bien que dans le jeu de base, il n'y ait aucune différence de gameplay entre les hommes et les femmes, ce paramètre peut s'avérer utile pour certains mods qui pourraient ajouter des différences, ou pour les administrateurs de serveurs de jeu de rôle. En raison de la façon dont le jeu est chargé, il n'existe aucun moyen d'empêcher les personnages d'un sexe donné de choisir une caractéristique en particulier. Au lieu de cela, cela tuera simplement les personnages masculins qui ont pris cette caractéristique.",
+}
